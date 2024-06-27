@@ -1,0 +1,127 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/open-sans-v40-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+  }
+
+  .container{
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+  }
+.header{
+   padding: 40px;
+ 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__ong .btn{
+    margin-left: 50px;
+}
+
+.item{
+        display: flex;
+        align-items: center;
+     gap: 81px;
+}
+.item_link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.item_list {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+    color: #FFFFFF;
+}
+.btn{
+    width: 146px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.51px;
+    text-align: center;
+    color:black;
+    background-color: #FFFFFF;
+}
+.main{
+    padding: 100px 117px 212px 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_h1{
+max-width: 494px;
+font-size: 70px;
+font-weight: 800;
+line-height: 78px;
+text-align: left;
+color:#FFFFFF;
+margin-bottom: 20px;
+margin-top: 50px;
+background-image: url("../images/gamburger.png");
+background-repeat: no-repeat;
+background-size: cover;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.main_p{
+ 
+min-width: 287px;
+font-size: 20px;
+font-weight: 400;
+color: #FFFFFF;
+margin-bottom: 34px;
+}
+.btn2{
+  margin-left: 50px;
+width: 146px;
+height: 55px;
+border-radius: 20px;
+font-size: 18px;
+font-weight: 600;
+line-height: 24.51px;
+text-align: center;
+color: #FFFFFF;
+background-color:#000;
+border: 1px solid  rgba(255, 255, 255, 1) ;
+}
+
+.iconca{
+ 
+  margin-left: 665px;
+}
+.iconca__description{
+  color: #FFFFFF;
+margin-right: 666px;
+}
